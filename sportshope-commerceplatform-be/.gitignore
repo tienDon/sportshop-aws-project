@@ -1,33 +1,32 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+################################
+# IDE
+################################
+.idea/             # IntelliJ IDEA files
+.vscode/           # VS Code settings (tùy chọn)
+*.iml              # IntelliJ project files
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+################################
+# BUILD & OUTPUT
+################################
+/target/           # Thư mục build của Maven
+/build/            # Thư mục build của Gradle
+.gradle/           # Thư mục cache của Gradle
+*.class            # File class đã compile
+*.jar
+*.war
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+################################
+# LOGS & CACHE
+################################
+*.log              # File log
+log/
+.DS_Store          # macOS
+Thumbs.db          # Windows
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
+################################
+# ENVIRONMENT & SECRETS
+################################
+.env
+# Nếu có file properties local
+application-local.properties
+application-dev.properties
