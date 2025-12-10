@@ -1,0 +1,90 @@
+// ...existing code...
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json.tmp
+.pnp/
+.pnp.js
+
+# Build / output
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+
+# Environment / secrets
+.env
+.env.*.local
+.env.local
+
+# IDEs / editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+logs/
+*.log
+
+# Python (if present)
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Misc
+*.sqlite3
+*.db
+*.tgz
+.cache/
+reports/
+*.bak
+
+// ...existing code...
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Environment / secrets
+*.env
+*.properties
+application-*.yml
+application-*.properties
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
